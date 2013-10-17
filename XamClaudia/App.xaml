@@ -1,0 +1,108 @@
+﻿<Application x:Class="XamClaudia.App"
+			 xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+			 StartupUri="Views/MainWindow.xaml">
+	<Application.Resources>
+
+		<BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter" />
+		
+		<LinearGradientBrush x:Key="ブラシ_髪"
+							 EndPoint="0.5,1"
+							 StartPoint="0.5,0">
+			<GradientStop Color="#FFFEF3BD" />
+			<GradientStop Color="#FFFEDF93"
+						  Offset="1" />
+		</LinearGradientBrush>
+		<Color x:Key="色_髪_輪郭">Black</Color>
+		<SolidColorBrush x:Key="ブラシ_髪_輪郭"
+						 Color="Black" />
+		<LinearGradientBrush x:Key="ブラシ_髪_影"
+							 EndPoint="0.5,1"
+							 StartPoint="0.5,0">
+			<GradientStop Color="#FFDFBE78"
+						  Offset="0" />
+			<GradientStop Color="#FFDEB86D"
+						  Offset="1" />
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="ブラシ_肌"
+							 EndPoint="0.5,1"
+							 StartPoint="0.5,0">
+			<GradientStop Color="#FFFDEADB"
+						  Offset="1" />
+			<GradientStop Color="#FFFDEAD9" />
+		</LinearGradientBrush>
+		<SolidColorBrush x:Key="ブラシ_肌_影"
+						 Color="#FFF1C6B9" />
+		<Color x:Key="色_肌_輪郭">Black</Color>
+		<SolidColorBrush x:Key="ブラシ_肌_輪郭"
+						 Color="Black" />
+		<LinearGradientBrush x:Key="ブラシ_肌_影2"
+							 EndPoint="0.5,1"
+							 StartPoint="0.5,0">
+			<GradientStop Color="#FFE1A292" />
+			<GradientStop Color="#FFEDB9AC"
+						  Offset="1" />
+		</LinearGradientBrush>
+		<SolidColorBrush x:Key="ブラシ_セーター"
+						 Color="#FFFEF0D9" />
+		<SolidColorBrush x:Key="ブラシ_セーター_輪郭"
+						 Color="Black" />
+		<SolidColorBrush x:Key="ブラシ_セーター_影"
+						 Color="#FFDCC7AC" />
+		<SolidColorBrush x:Key="ブラシ_シャツ"
+						 Color="White" />
+		<SolidColorBrush x:Key="ブラシ_シャツ_輪郭"
+						 Color="Black" />
+		<SolidColorBrush x:Key="ブラシ_影"
+						 Color="#3F000000" />
+		<SolidColorBrush x:Key="ブラシ_シャツ_影"
+						 Color="#FFD1D2D4" />
+		<SolidColorBrush x:Key="ブラシ_イヤリング_耳あて"
+						 Color="#FFFFFFFE" />
+		<SolidColorBrush x:Key="ブラシ_イヤリング_耳あて_輪郭"
+						 Color="Black" />
+		<RadialGradientBrush x:Key="ブラシ_イヤリング">
+			<GradientStop Color="#FFD1EAEF"
+						  Offset="0" />
+			<GradientStop Color="#FF3791CF"
+						  Offset="1" />
+		</RadialGradientBrush>
+		<SolidColorBrush x:Key="ブラシ_虹彩"
+						 Color="#FF5BBFB2" />
+		<SolidColorBrush x:Key="ブラシ_瞳孔"
+						 Color="#FF016B6E" />
+		<SolidColorBrush x:Key="ブラシ_ハイライト"
+						 Color="White" />
+		<SolidColorBrush x:Key="ブラシ_瞼"
+						 Color="Black" />
+		<SolidColorBrush x:Key="ブラシ_虹彩_輪郭"
+						 Color="Black" />
+		<SolidColorBrush x:Key="ブラシ_瞳_影"
+						 Color="#66000032" />
+		<SolidColorBrush x:Key="ブラシ_メガネ_フレーム"
+						 Color="#FFBF1B21" />
+		<LinearGradientBrush x:Key="ブラシ_メガネ_レンズ"
+							 EndPoint="0.5,1"
+							 StartPoint="0.5,0">
+			<GradientStop Color="#00FFFFFF"
+						  Offset="1" />
+			<GradientStop Color="#7FFFFFFF"
+						  Offset="0.5" />
+		</LinearGradientBrush>
+		<SolidColorBrush x:Key="ブラシ_口"
+						 Color="#FFF4AD9A" />
+		<LinearGradientBrush x:Key="ブラシ_口_輪郭"
+							 EndPoint="0.5,1"
+							 StartPoint="0.4,0">
+			<GradientStop Color="Black"
+						  Offset="0.6" />
+			<GradientStop Offset="0.8" />
+			<GradientStop Color="#00000000" />
+			<GradientStop Color="Black"
+						  Offset="0.353" />
+		</LinearGradientBrush>
+		<SolidColorBrush x:Key="ブラシ_髪_光"
+						 Color="#BFFFFFFF" />
+
+	</Application.Resources>
+</Application>
